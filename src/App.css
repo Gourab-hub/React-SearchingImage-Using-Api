@@ -1,0 +1,136 @@
+#root{
+ background-color: #0d3b4d;
+ width: 100%;
+
+}
+
+.card_image{
+  height: auto;
+  padding: 50px ;
+  width: auto;
+  border-radius: 50px;
+  background: #0d3b4d;
+  box-shadow:  20px 20px 60px #1a9acc,
+               -20px -20px 60px #6fbbda;
+}
+
+.likes{
+  color: #d15f5f;
+  
+  }
+  
+.search{
+  width: auto;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+
+
+
+.bluecolor{
+  color: #6fbbda;
+  padding:10px;
+  text-align: center;
+}
+.css{
+  padding: 20px 10px;
+}
+
+.btn-color{
+ 
+    display: inline-block;
+    background-color: #6fbbda;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    height: 46px;
+ 
+   
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+  
+}
+
+
+
+.control{
+  background-color: #0d3b4d;
+  color: #0d3b4d;
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #274450;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    height: 46px;
+    outline: none;
+    width: auto;
+    box-shadow:  20px 20px 60px #1a9acc,
+               -20px -20px 60px #6fbbda;
+}
+.card_image1{
+  height: 600px;
+  width: auto;
+  border-radius: 2px;
+}
+.form-inline{
+    justify-content: center;
+}
+
+.ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  justify-content: center;
+  padding: auto;
+}
+.like{
+  color: #216e8d;
+  text-align: center;
+  padding: 5px 10px;
+  list-style-type: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .card_image1{
+    height: 300px;
+   width: auto;
+    border-radius: 2px;
+    padding: 0px 0px;
+    flex: 1;
+  }
+  .card_image{
+    height: auto;
+    border-radius: 50px;
+    background: #0d3b4d;
+    box-shadow:  20px 20px 60px #1a9acc,
+                 -20px -20px 60px #6fbbda;
+  }
+  .css{
+    padding: 20px 0px;
+  }
+
+  .like{
+    color: #8d216d;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100px;
+    justify-content: center;
+  
+  }
+
+
+}
